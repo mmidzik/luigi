@@ -28,7 +28,7 @@ hostname, and NOT to an IP address.
 You can run this code example like this:
 
     .. code:: console
-        $ luigi --module examples.kubernetes_job PerlPi --local-scheduler
+        $ luigi --module examples.kubernetes PerlPi --local-scheduler
 
 Running this code will create a pi-luigi-uuid kubernetes job within the cluster
 pointed to by the default context in "~/.kube/config".
